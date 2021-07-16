@@ -1,0 +1,49 @@
+.fullpage{
+    background-size: cover;
+    background-image: 100%;
+}
+
+.link
+{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    flex-wrap: wrap;
+    text-decoration: none;
+    align-items: flex-end;
+
+}
+.navbar
+{
+    display: block;
+    flex-direction: row;
+}
+
+.text
+{
+    position: relative;
+    
+}
+.linkbox{
+    background-color: rgb(67, 67, 185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: .9;
+    width: 100%;
+    justify-items: flex-end;
+    margin-right: 100px;
+    justify-items: right;
+    text-align: right;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.linkbox ul li{
+    float: left;
+    padding: 25px;
+    background-color: rgb(113, 113, 218);
+    border-radius: 100px;
+    justify-content: space-between;
+    
+}
